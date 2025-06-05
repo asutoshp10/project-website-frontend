@@ -65,7 +65,8 @@ function FileUpload(){
         {result && (
             <div className='result'>
             <h3>Result:</h3>
-            <p><strong>Score/Analysis:</strong><><Markdown>{result.analysis}</Markdown></></p>
+            <h5>Score : {result.score} </h5>
+            <p><strong>Analysis:</strong><><Markdown>{result.analysis}</Markdown></></p>
             <p><strong>Email(s):</strong> {result.emails.join(', ')}</p>
             </div>
         )}
