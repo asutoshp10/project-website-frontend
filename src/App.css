@@ -233,8 +233,108 @@ button:hover {
   color: #333;
 }
 
+.result-card {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 60rem;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-.result {
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 calc(var(--score) * 1%), #e0e0e0 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4caf50;
+  position: relative;
+}
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.score-text {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+
+.score-text {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.section-grid {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* .skill-section{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+} */
+.skill-section h4,
+.suggestions-section h4 {
+  margin-bottom: 0.5rem;
+}
+
+.skill-badge {
+  background: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin: 4px 0;
+  display: inline-block;
+}
+
+.skill-badge.match {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-left: 4px solid #66bb6a;
+  width: 100%;
+}
+
+.skill-badge.missing {
+  background-color: #ffebee;
+  color: #c62828;
+  border-left: 4px solid #ef5350;
+  width: 100%;
+}
+
+.suggestions-section .suggestion-box {
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  border-left: 4px solid #42a5f5;
+  color: #0d47a1;
+}
+
+
+/* .result {
   background-color: white;
   max-width: 800px;
   width: 100%;
@@ -250,7 +350,7 @@ button:hover {
 
 .result p {
   margin: 0;
-}
+} */
 
 .toast {
   display: flex;

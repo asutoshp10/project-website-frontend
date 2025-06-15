@@ -28,7 +28,7 @@ function App() {
           </p>
 
           <p className="highlight">
-            🚀 Currently Featured Projects:
+            Currently Featured Projects:
             <ul>
               <li><strong>Resume Scorer</strong>: Uses Google Gemini to evaluate your resume and provide actionable improvement tips using LLM-powered analysis.</li>
               <li><strong>Hand Posture Detection</strong>: Real-time hand landmark detection using MediaPipe, perfect for gesture-based interfaces and accessibility solutions.</li>
@@ -65,7 +65,7 @@ function App() {
 
       </div>
       <div className="resume_scorer_" id='resume_scorer'>
-        <h1>🎯 Resume Score Calculator</h1>
+        <h1> Resume Score Calculator</h1>
         <FileUpload/>
         <TypingText text="Analyse your resume" />
       </div>

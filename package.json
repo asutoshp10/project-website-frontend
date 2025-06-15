@@ -10,6 +10,7 @@
     "axios": "^1.9.0",
     "bootstrap": "^5.3.6",
     "react": "^19.1.0",
+    "react-circular-progressbar": "^2.2.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",
     "react-scripts": "5.0.1",
